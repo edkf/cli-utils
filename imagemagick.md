@@ -1,10 +1,10 @@
 # Imagemagick
-ImageMagick is a free and open-source[3] software suite for displaying, converting, and editing raster image and vector image files. 
+ImageMagick is a free and open-source software suite for displaying, converting, and editing raster image and vector image files. 
 
 ## Resizing images
 
 #### Resize to 640×480 (maximum width and height), keep the aspect ratio
-`shell mogrify -resize 640x480 *.jpg`
+shell mogrify -resize 640x480 *.jpg`
 
 #### Resize to fixed width of 640, keep the aspect ratio
 `mogrify -resize 640 *.jpg`
