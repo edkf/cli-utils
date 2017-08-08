@@ -34,3 +34,6 @@ shell mogrify -resize 640x480 *.jpg`
 
 #### Convert all .png to .jpg
 `mogrify -format jpg *.png`
+
+#### Convert multiple pages pdf to single png images
+convert file.pdf file-%0d.png
