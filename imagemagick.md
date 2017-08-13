@@ -37,3 +37,6 @@ shell mogrify -resize 640x480 *.jpg`
 
 #### Convert multiple pages pdf to single png images
 convert file.pdf file-%0d.png
+
+#### Crop empty space around images
+file.png -fuzz 1% -trim +repage new-file.png
