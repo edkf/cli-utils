@@ -40,5 +40,3 @@ shell mogrify -resize 640x480 *.jpg`
 
 #### Crop empty space around images
 `file.png -fuzz 1% -trim +repage new-file.png`
-
-file.png -fuzz 1% -trim +repage new-file.png
